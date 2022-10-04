@@ -1,1 +1,0 @@
-# sindispetrol-backend
