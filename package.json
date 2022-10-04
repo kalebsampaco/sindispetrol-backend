@@ -1,5 +1,5 @@
 {
-  "name": "proyecto",
+  "name": "Sindispetrol",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -18,7 +18,7 @@
     "pg": "8.6.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "WIlliam Caleb Saenz"
   },
   "strapi": {
     "uuid": "675b059a-a92a-4093-a5ca-2bdb5f998de4"
