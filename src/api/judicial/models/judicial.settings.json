@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "judicials",
+  "info": {
+    "name": "Judicial"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subdirectiva": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "consulta": {
+      "type": "text"
+    }
+  }
+}

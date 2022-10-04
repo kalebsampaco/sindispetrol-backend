@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cicucos",
+      "handler": "cicuco.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cicucos/count",
+      "handler": "cicuco.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cicucos/:id",
+      "handler": "cicuco.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cicucos",
+      "handler": "cicuco.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cicucos/:id",
+      "handler": "cicuco.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cicucos/:id",
+      "handler": "cicuco.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

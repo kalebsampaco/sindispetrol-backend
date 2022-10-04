@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colectivas",
+  "info": {
+    "singularName": "colectiva",
+    "pluralName": "colectivas",
+    "displayName": "colectiva",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "colectiva": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "occidentes",
+  "info": {
+    "singularName": "occidente",
+    "pluralName": "occidentes",
+    "displayName": "occidente",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

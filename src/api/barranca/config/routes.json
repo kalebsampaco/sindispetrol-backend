@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/barrancas",
+      "handler": "barranca.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/barrancas/count",
+      "handler": "barranca.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/barrancas/:id",
+      "handler": "barranca.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/barrancas",
+      "handler": "barranca.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/barrancas/:id",
+      "handler": "barranca.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/barrancas/:id",
+      "handler": "barranca.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

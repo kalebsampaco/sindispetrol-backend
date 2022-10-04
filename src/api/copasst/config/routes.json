@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/copassts",
+      "handler": "copasst.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/copassts/count",
+      "handler": "copasst.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/copassts/:id",
+      "handler": "copasst.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/copassts",
+      "handler": "copasst.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/copassts/:id",
+      "handler": "copasst.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/copassts/:id",
+      "handler": "copasst.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

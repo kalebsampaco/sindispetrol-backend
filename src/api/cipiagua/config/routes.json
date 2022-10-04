@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cipiaguas",
+      "handler": "cipiagua.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cipiaguas/count",
+      "handler": "cipiagua.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cipiaguas/:id",
+      "handler": "cipiagua.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cipiaguas",
+      "handler": "cipiagua.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cipiaguas/:id",
+      "handler": "cipiagua.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cipiaguas/:id",
+      "handler": "cipiagua.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

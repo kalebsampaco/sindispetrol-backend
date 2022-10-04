@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cicucos",
+  "info": {
+    "singularName": "cicuco",
+    "pluralName": "cicucos",
+    "displayName": "cicuco"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}

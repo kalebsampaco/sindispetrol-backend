@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/judicials",
+      "handler": "judicial.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/judicials/count",
+      "handler": "judicial.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/judicials/:id",
+      "handler": "judicial.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/judicials",
+      "handler": "judicial.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/judicials/:id",
+      "handler": "judicial.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/judicials/:id",
+      "handler": "judicial.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

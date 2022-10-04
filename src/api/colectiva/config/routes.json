@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colectivas",
+      "handler": "colectiva.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colectivas/count",
+      "handler": "colectiva.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colectivas/:id",
+      "handler": "colectiva.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colectivas",
+      "handler": "colectiva.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colectivas/:id",
+      "handler": "colectiva.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colectivas/:id",
+      "handler": "colectiva.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

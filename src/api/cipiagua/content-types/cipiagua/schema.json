@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cipiaguas",
+  "info": {
+    "singularName": "cipiagua",
+    "pluralName": "cipiaguas",
+    "displayName": "cipiagua"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}

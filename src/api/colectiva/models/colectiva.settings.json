@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colectivas",
+  "info": {
+    "name": "colectiva"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "colectiva": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "pluginOptions": {}
+    }
+  }
+}

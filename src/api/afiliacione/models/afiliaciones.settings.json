@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "afiliaciones",
+  "info": {
+    "name": "Afiliaciones",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subdirectiva": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "datetime"
+    },
+    "nombreCompleto": {
+      "type": "string"
+    },
+    "cedula": {
+      "type": "string"
+    },
+    "ciudadCedula": {
+      "type": "string"
+    },
+    "nombreEmpresa": {
+      "type": "string"
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "barrio": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "celular": {
+      "type": "string"
+    },
+    "pdf64": {
+      "type": "text",
+      "required": false,
+      "maxLength": 9000000
+    }
+  }
+}

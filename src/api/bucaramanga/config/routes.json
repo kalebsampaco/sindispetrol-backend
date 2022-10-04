@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bucaramangas",
+      "handler": "bucaramanga.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bucaramangas/count",
+      "handler": "bucaramanga.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bucaramangas/:id",
+      "handler": "bucaramanga.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bucaramangas",
+      "handler": "bucaramanga.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bucaramangas/:id",
+      "handler": "bucaramanga.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bucaramangas/:id",
+      "handler": "bucaramanga.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

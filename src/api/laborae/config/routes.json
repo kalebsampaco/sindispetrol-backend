@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/laboraes",
+      "handler": "laboraes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laboraes/count",
+      "handler": "laboraes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laboraes/:id",
+      "handler": "laboraes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/laboraes",
+      "handler": "laboraes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/laboraes/:id",
+      "handler": "laboraes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/laboraes/:id",
+      "handler": "laboraes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

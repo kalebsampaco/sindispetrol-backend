@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/estatutos",
+      "handler": "estatutos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estatutos/count",
+      "handler": "estatutos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estatutos/:id",
+      "handler": "estatutos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/estatutos",
+      "handler": "estatutos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/estatutos/:id",
+      "handler": "estatutos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/estatutos/:id",
+      "handler": "estatutos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

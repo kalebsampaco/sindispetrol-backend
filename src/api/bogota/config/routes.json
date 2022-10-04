@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bogotas",
+      "handler": "bogota.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bogotas/count",
+      "handler": "bogota.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bogotas/:id",
+      "handler": "bogota.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bogotas",
+      "handler": "bogota.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bogotas/:id",
+      "handler": "bogota.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bogotas/:id",
+      "handler": "bogota.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

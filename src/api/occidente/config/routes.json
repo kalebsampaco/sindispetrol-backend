@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/occidentes",
+      "handler": "occidente.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/occidentes/count",
+      "handler": "occidente.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/occidentes/:id",
+      "handler": "occidente.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/occidentes",
+      "handler": "occidente.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/occidentes/:id",
+      "handler": "occidente.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/occidentes/:id",
+      "handler": "occidente.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

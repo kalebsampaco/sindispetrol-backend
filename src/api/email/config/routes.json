@@ -1,0 +1,15 @@
+{
+  "routes": [
+
+    {
+      "method": "POST",
+      "path": "/emails",
+      "handler": "email.send",
+      "config": {
+        "policies": []
+      }
+    }
+
+  ]
+}
+

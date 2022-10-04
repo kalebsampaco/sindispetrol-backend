@@ -1,0 +1,35 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "laboraes",
+  "info": {
+    "singularName": "laborae",
+    "pluralName": "laboraes",
+    "displayName": "laborae",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subdirectiva": {
+      "type": "string"
+    },
+    "TipoConsulta": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "consulta": {
+      "type": "text"
+    }
+  }
+}
+

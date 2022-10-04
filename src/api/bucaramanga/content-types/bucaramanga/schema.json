@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bucaramangas",
+  "info": {
+    "singularName": "bucaramanga",
+    "pluralName": "bucaramangas",
+    "displayName": "bucaramanga"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "text"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}

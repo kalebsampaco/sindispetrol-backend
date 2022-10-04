@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/afiliaciones",
+      "handler": "afiliaciones.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/afiliaciones/count",
+      "handler": "afiliaciones.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/afiliaciones/:id",
+      "handler": "afiliaciones.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/afiliaciones",
+      "handler": "afiliaciones.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/afiliaciones/:id",
+      "handler": "afiliaciones.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/afiliaciones/:id",
+      "handler": "afiliaciones.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

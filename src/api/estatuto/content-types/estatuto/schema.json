@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estatutos",
+  "info": {
+    "singularName": "estatuto",
+    "pluralName": "estatutos",
+    "displayName": "estatuto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "estatutos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
